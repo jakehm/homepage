@@ -51,5 +51,6 @@
     "deploy": "gh-pages -d build",
     "start": "node server"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }

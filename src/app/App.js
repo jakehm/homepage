@@ -1,13 +1,35 @@
-import React from 'react';
-// import 'react-toolbox/lib/commons.scss';           // Import common styles
-import BlueAppBar from './BlueAppBar.js';      // AppBar with simple overrides
+import React from 'react'
+import 'react-toolbox/lib/commons.scss'
+import BlueAppBar from './BlueAppBar.js'
+import {Tab, Tabs} from 'react-toolbox'
+import Experiments from './Experiments.js'
 
-const App = () => (
-  <div>
-    <BlueAppBar />
-    <section style={{ padding: 20 }}>
-    </section>
-  </div>
-);
+class App extends React.Component {
+  state={
+    index: 1,
+  }
 
-export default App;
+  handleTabChange = index => {
+    this.setState({index})
+  }
+  
+  render() {
+    return (
+      <div>
+        <BlueAppBar />
+        <section style={{ padding: 20 }}>
+          <Tabs index={this.state.index} onChange={this.handleTabChange} fixed>
+            <Tab label='Resume'>
+              Please hire me.
+            </Tab>
+            <Tab label='Experiments'>
+              <Experiments />
+            </Tab>
+          </Tabs>
+        </section>
+      </div>
+    )
+  }
+}
+
+export default App

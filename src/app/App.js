@@ -1,15 +1,11 @@
 import React from 'react';
 // import 'react-toolbox/lib/commons.scss';           // Import common styles
-import PurpleAppBar from './PurpleAppBar.js';      // AppBar with simple overrides
-import SuccessButton from './SuccessButton.js';    // A button with complex overrides
-import { Button } from 'react-toolbox/lib/button'; // Bundled component import
+import BlueAppBar from './BlueAppBar.js';      // AppBar with simple overrides
 
 const App = () => (
   <div>
-    <PurpleAppBar />
+    <BlueAppBar />
     <section style={{ padding: 20 }}>
-      <SuccessButton label='Success' primary raised />
-      <Button label='Primary Button' primary />
     </section>
   </div>
 );

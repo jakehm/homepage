@@ -1,38 +1,15 @@
 {
-  "name": "react-toolbox-example",
-  "description": "A set of complementary tools to ReactJS.",
+  "name": "homepage",
+  "description": "Resume and portfolio stuff",
   "version": "0.11.4",
   "author": {
-    "name": "React Toolbox Team",
-    "url": "http://github.com/react-toolbox"
+    "name": "Jacob Harrow-Mortelliti",
+    "url": "https://github.com/jharrowmortelliti/homepage"
   },
-  "contributors": [
-    {
-      "name": "Javi Jimenez Villar",
-      "email": "javi.jimenez.villar@gmail.com",
-      "url": "http://soyjavi.com/"
-    },
-    {
-      "name": "Javi Velasco Arjona",
-      "email": "javier.velasco86@gmail.com",
-      "url": "http://javivelasco.com/"
-    }
-  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-toolbox/react-toolbox-example.git"
+    "url": "git+https://github.com/jharrowmortelliti/homepage.git"
   },
-  "bugs": {
-    "url": "https://github.com/react-toolbox/react-toolbox/issues",
-    "email": "issues@react-toolbox.com"
-  },
-  "keywords": [
-    "components",
-    "material design",
-    "react",
-    "react-component",
-    "toolbox"
-  ],
   "devDependencies": {
     "autoprefixer": "~6.4.0",
     "babel-core": "~6.13.2",
@@ -74,6 +51,5 @@
     "deploy": "gh-pages -d build",
     "start": "node server"
   },
-  "license": "MIT",
-  "homepage": "https://github.com/react-toolbox/react-toolbox-example#readme"
+  "license": "MIT"
 }

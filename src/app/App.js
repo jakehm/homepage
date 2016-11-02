@@ -2,7 +2,7 @@ import React from 'react'
 import 'react-toolbox/lib/commons.scss'
 import BlueAppBar from './BlueAppBar.js'
 import {Tab, Tabs} from 'react-toolbox'
-import Experiments from './Experiments.js'
+import Projects from './Projects.js'
 
 class App extends React.Component {
   state={
@@ -22,8 +22,8 @@ class App extends React.Component {
             <Tab label='Resume'>
               Please hire me.
             </Tab>
-            <Tab label='Experiments'>
-              <Experiments />
+            <Tab label='Personal Projects'>
+              <Projects />
             </Tab>
           </Tabs>
         </section>

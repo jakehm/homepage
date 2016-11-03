@@ -5,9 +5,11 @@
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  position: relative;
 }
 
 img {
-  max-width: 100%;
+	display: block;
+  width: 100%;
   height: auto;
 }
